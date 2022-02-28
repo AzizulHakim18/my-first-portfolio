@@ -5,12 +5,15 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .orange{
  color: orange;
 }
 .flexible{
     display: flex;
-    margin-bottom: 0cm;
+    height: 100%;
 }
 .half-width{
     width: 50%;
@@ -19,6 +22,8 @@ h1{
 .half-width img{
 width: 100%;
 height: 60%;
+padding-top: 10%;
+padding-right: 5%;
 }
 .link-box{
     text-decoration: none;
@@ -37,6 +42,25 @@ height: 60%;
     background-repeat: no-repeat;
     background-position: right;
 }
-.top{
-    
+.last{
+    background-image: url(Image/exp-bg.png);
+    background-repeat: no-repeat;
+}
+.box-shadow{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 3%;
+    box-shadow: 10px 10px 20px 5px crimson;
+    border-radius: 10px;
+}
+#border-line{
+    border-left: 10px dotted orangered;
+}
+#border-line-2{
+    border-left: 10px double;
+    border-color: brown;
+}
+.bottom{
+    text-align: center;
 }
